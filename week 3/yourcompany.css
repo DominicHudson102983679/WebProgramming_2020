@@ -1,0 +1,322 @@
+body {
+    color: white;
+    background-color: rgb(67,58,79);
+    width: 650px;
+}
+
+div {
+    margin: 0px;
+}
+
+#HeaderImage {
+    height: 50px;
+    width: 600px;
+    margin: auto;
+}
+
+#Title h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    float: inherit;
+    margin: auto;
+}
+
+#HeaderImage {
+    color: rgb(255, 255, 2);
+    height: 250px;
+    width: 650px;
+    background-color: brown;
+    margin: auto;
+}
+
+#Date {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 650px;
+    height: 150px;
+    margin: auto;
+}
+
+#Date h5{
+    color: rgb(65, 49, 65);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+#Date h1 {
+    color: rgb(65, 49, 65);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+#ReadMore {
+    width: 630px;
+    height: 90px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-top-style: dotted;
+    color: rgb(65, 49, 65);
+    font-size: 12px;
+    margin: auto;
+}
+
+#DateTable {
+    width: 650px;
+    text-align: center;
+}
+
+#DateTable td{
+    padding-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#JuneDate h2 {
+    color: rgb(65, 0, 126);
+    text-align: center;
+    background-color: rgb(183,125,253);
+    height: 60px;
+    width: 230px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+#JuneDateInfo p {
+    color: white;
+    background-color: rgb(183,125,253);
+    width: 650px;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#JulyDate h2 {
+    color: rgb(65, 0, 126);
+    text-align: center;
+    background-color: rgb(200,163,248);
+    height: 60px;
+    width: 230px;
+    border-bottom: 0px;
+    padding-top: 20px;
+    float: left;
+    margin: auto;
+}
+#JulyDateInfo p {
+    color: white;
+    text-align: left;
+    background-color: rgb(200,163,248);
+    width: 650px;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#junediv {
+    background-color: rgb(183,125,253);
+    height: 120px;
+    width: 650px;
+    display: inline-block;
+
+}
+#june {
+    width: 235px;
+    height: 50%;
+    background-color: rgb(183,125,253);
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0%;
+}
+#fifteen {
+    background-color: rgb(183,125,253);
+    width: 235px;
+    height: 20px;
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+}
+
+#juneinfo {
+    background-color: rgb(183,125,253);
+    width: 400px;
+    height: 110px;
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+#julydiv {
+    background-color: rgb(200,163,248);
+    height: 120px;
+    width: 650px;
+    display: inline-block;
+
+}
+#july {
+    width: 235px;
+    height: 50%;
+    background-color: rgb(200,163,248);
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0%;
+}
+#five {
+    background-color: rgb(200,163,248);
+    width: 235px;
+    height: 20px;
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+}
+#julyinfo {
+    background-color: rgb(200,163,248);
+    width: 400px;
+    height: 110px;
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+DONT DELETE DONT DELETEDONT DELETEDONT DELETEDONT DELETEDONT DELETE
+#augdiv {
+    background-color: rgb(183,125,253);
+    height: 120px;
+    width: 650px;
+    display: inline-block;
+
+}
+#aug {
+    width: 235px;
+    height: 50%;
+    background-color: rgb(183,125,253);
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0%;
+}
+#eighteen {
+    background-color: rgb(183,125,253);
+    width: 235px;
+    height: 50px;
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+}
+#auginfo {
+    background-color: rgb(183,125,253);
+    width: 400px;
+    height: 110px;
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#AugustDate h2 {
+    color: rgb(65, 0, 126);
+    text-align: center;
+    background-color: rgb(183,125,253);
+    height: 60px;
+    width: 230px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 0x;
+    margin: auto;
+}
+#AugustDateInfo p {
+    color: white;
+    text-align: left;
+    background-color: rgb(183,125,253);
+    width: 650px;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#About {
+    background-color: rgb(29,22,35);
+    width: 600px;
+    height: 165px;
+    color: white;
+    text-align: center;
+    font-size: 6;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
