@@ -1,0 +1,120 @@
+body {
+    background-color: darkslategray;
+    width: 420px;
+    height: 420px;
+    color: white;
+}
+
+#socialmedia {
+    width: 420px;
+    height: 35px;
+    background-color: brown;
+    display: block;
+}
+
+#fblogo {
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#facebook {
+    background-color: #3b5998;
+    width: 208px;
+    height: 30px;
+    padding-top: 10px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+#twitterlogo {
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#twitter {
+    background-color: cornflowerblue;
+    width: 212px;
+    height: 30px;
+    padding-top: 10px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+#signup {
+    text-align: center;
+    font-size: 13px;
+}
+
+#firstlast {
+    width: 420px;
+    height: 35px;
+    background-color: darkslategray;
+    display: block;
+}
+
+#First {
+    background-color: rgb(255, 255, 255);
+    width: 195px;
+    height: 25px;
+    color: rgb(182, 182, 182);
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+#Last {
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: right;
+}
+
+#email {
+    background-color: white;
+    width: 410px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: black;
+
+}
+
+#password {
+    background-color: white;
+    width: 410px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+#terms {
+    text-align: left;
+    font-size: 13px;
+}
+
+#create {
+    background-color: mediumseagreen;
+    width: 420px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+}
+
