@@ -1,0 +1,81 @@
+body {
+    width: 690px;
+    height: 1000px;
+}
+    
+
+#biggreen {
+    background-color: yellowgreen;
+    width: 650px;
+    height: 125px;
+    text-align: center;
+    padding-top: 95px;
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#stranger {
+    width: 650px;
+    height: 335px;
+    background-color: white;
+}
+
+#hi {
+    text-emphasis-style: bold;
+    color: black;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#hitext {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+#share {
+    width: 690px;
+    height: 80px;
+}
+
+#sharebutton {
+    background-color: yellowgreen;
+    width: 270px;
+    height: 50px;
+    align-content: center;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+#sharetext {
+    color: white;
+    padding-top: 17px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btw {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+#mrpen {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#footer {
+    width: 650px;
+    height: 110px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 40%;
+}

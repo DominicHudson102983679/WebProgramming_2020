@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="ClickMeButton">Click Me</button>
+    <br>
+    <button id="DontClickMeButton">Dont Click Me</button>
+    <br>
+    <button type="button" onclick="onClick()" id="ClickCounterButton">Click me: 0</button>
+
+    <script type="text/javascript">
+        let ClickMeButton = document.getElementById("ClickMeButton");
+        let DontClickMeButton = document.getElementById("DontClickMeButton");
+        let ClickCounterButton = document.getElementById("ClickCounterButton");
+
+        console.log(ClickMeButton);
+        console.log(DontClickMeButton);
+        console.log(ClickCounterButton);
+
+        var clicks = 0;
+        function onClick() {
+        var clicks += 1;
+            document.getElementById(ClickCounterButton).innerHTML = "Click me" + clicks;
+        };
+
+
+
+
+      
+
+
+        
+
+        ClickMeButton.onclick = function() {
+            console.log("Button Clicked");
+            ClickMeButton.innerHTML = "innerhtml";
+        }
+
+        DontClickMeButton.onclick = function() {
+            DontClickMeButton.style.backgroundColor = "red";
+            DontClickMeButton.style.color = "blue";
+            console.log("Dont Click Counter")
+        }
+
+        ClickCounterButton.onclick = function() {
+            console.log("Counting Clicks");
+        }
+
+
+    </script>
+
+
+    
+</body>
+</html>

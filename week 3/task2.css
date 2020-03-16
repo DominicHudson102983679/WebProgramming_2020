@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(116,194,89);
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    background-color: white;
+    height: 225px;
+    width: 350px;
+    padding: 40px;
+    align-items: center;
+}
+
+#usernamebox, #passwordbox {
+    height: 50px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+#usernametext, #passwordtext {
+    padding: 10px;
+    opacity: 30%;
+    align-items: center;
+    display: flex;
+}
+
+#loginbox {
+    height: 40px;
+    background-color: limegreen;
+    margin: 10px;
+}
+
+#logintext {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#notregtext {
+    text-align: center;
+    padding: 10px;
+    color: darkgray;
+}
+
+#notregtext a {
+    color: limegreen;
+    opacity: 100%;
+}
