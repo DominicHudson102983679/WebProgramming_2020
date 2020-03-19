@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(116,194,89);
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+#flex {
+    height: 390px;
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    float: unset;
+}
+
+#box {
+    height: 390px;
+    width: 490px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    ------
+    tried to center this form using flexbox but could never align the 
+    form vertically. Using margin, position, top, left, transform also
+    worked and seemed much less complicated
+    -------
+}
+
+#usernamebox, #passwordbox, #loginbox {
+    height: 65px;
+    width: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0.5rem;
+}
+
+#usernametext, #passwordtext, #logintext {
+    font-family: 'Roboto', sans-serif;
+}
+
+#usernamebox, #passwordbox {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#usernametext, #passwordtext {
+    opacity: 30%;
+}
+
+#loginbox {
+    background-color: limegreen;
+    display: flex;
+}
+
+#logintext {
+    color: white;
+    height: 60px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;  
+}
+
+
+#notregtext {
+    padding-top: 10px;
+
+}
+
+#notregtext a {
+    color: limegreen;
+  
+}
